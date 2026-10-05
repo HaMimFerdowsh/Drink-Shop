@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cocktail Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Cocktail Finder</h1>
+    <div class="search">
+      <input type="text" id="search-input" placeholder="Search a drink...">
+      <button onclick="handleSearch()">Search</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section id="drink-container" class="drink-container"></section>
+    <aside class="group">
+      <h2>Group (<span id="count">0</span>/7)</h2>
+      <ol id="group-list"></ol>
+      <h3>Total: ৳<span id="total">0</span></h3>
+    </aside>
+  </main>
+
+  <div id="modal" style="display: none;">
+    <div id="modal-box"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

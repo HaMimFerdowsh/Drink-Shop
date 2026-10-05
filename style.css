@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f1ee;
+}
+header {
+    background: #7b2d3b;
+    color: white;
+    padding: 20px 40px;
+}
+header h1 {
+    margin: 0 0 12px;
+}
+input {
+    padding: 10px;
+    width: 40%;
+    border: none;
+    border-radius: 6px;
+}
+.search button {
+    padding: 10px 20px;
+    background: #f2b134;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.layout {
+    display: flex;
+    gap: 30px;
+    padding: 30px 40px;
+    max-width: 1300px;
+    margin: 0 auto;
+    align-items: flex-start;
+}
+.drink-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 75%;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 15px;
+    width: 230px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+}
+.card img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.card h3,
+.card p {
+    margin: 0;
+}
+.group {
+    width: 25%;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 20px;
+}
